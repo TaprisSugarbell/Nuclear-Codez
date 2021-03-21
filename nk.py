@@ -24,7 +24,6 @@ def free_print(arg):
 
 def menu():
     os.system('cls')
-
     os.system('title Nuclear Codez ^| coded by Coffee#7443 ')
     UI.banner()
     UI.start_menu()
