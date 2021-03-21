@@ -194,8 +194,8 @@ if __name__ == '__main__':
 
                 eee = int(input(f"\t\t{Fore.LIGHTMAGENTA_EX}[?]{Style.RESET_ALL} > "))
                 if eee == 1:
-                    print(f"{Fore.LIGHTMAGENTA_EX}[WARNING]{Style.RESET_ALL} No pongas muchos números, puede crashear o tardara demasiado. 20 es decente. :3")
-                    x = int(input(f"{Fore.LIGHTMAGENTA_EX}[>]{Style.RESET_ALL} Ingresa una cantidad [eg. 3] > "))
+                    print(f"\t  {Fore.LIGHTMAGENTA_EX}[WARNING]{Style.RESET_ALL} No pongas muchos números, puede crashear o tardara demasiado. 20 es decente. :3")
+                    x = int(input(f"\t\t{Fore.LIGHTMAGENTA_EX}[>]{Style.RESET_ALL} Ingresa una cantidad [eg. 3] > "))
                     y = 0
                     while y<x:
                         r = requests.get('https://nhentai.net/random/')
